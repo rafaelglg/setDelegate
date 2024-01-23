@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="InfoTableViewCell" focusStyle="custom" rowHeight="110" id="KGk-i7-Jjw" customClass="InfoTableViewCell" customModule="setDelegate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JoW-1W-GC2">
+                        <rect key="frame" x="20" y="14" width="307" height="82"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OLH-1p-uVr">
+                                <rect key="frame" x="53.666666666666671" y="21" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="5hh-B7-86x"/>
+                                    <constraint firstAttribute="height" constant="40" id="i4K-fz-yt6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Linkedin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bn-vN-xvO">
+                                <rect key="frame" x="118.66666666666666" y="30.666666666666664" width="70" height="20.666666666666664"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="afd-mz-H1K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OLH-1p-uVr" firstAttribute="centerY" secondItem="0bn-vN-xvO" secondAttribute="centerY" id="Ah8-7V-Cdj"/>
+                            <constraint firstItem="0bn-vN-xvO" firstAttribute="centerY" secondItem="JoW-1W-GC2" secondAttribute="centerY" id="q1z-cr-Oeo"/>
+                            <constraint firstItem="0bn-vN-xvO" firstAttribute="top" secondItem="JoW-1W-GC2" secondAttribute="top" constant="30.670000000000002" id="tA5-mG-Ta9"/>
+                            <constraint firstItem="0bn-vN-xvO" firstAttribute="leading" secondItem="OLH-1p-uVr" secondAttribute="trailing" constant="25" id="w4x-IL-zJO"/>
+                            <constraint firstItem="0bn-vN-xvO" firstAttribute="centerX" secondItem="JoW-1W-GC2" secondAttribute="centerX" id="whP-M4-8fM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="JoW-1W-GC2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="9I2-T5-YWe"/>
+                    <constraint firstAttribute="bottom" secondItem="JoW-1W-GC2" secondAttribute="bottom" constant="14" id="m7X-Ev-3qf"/>
+                    <constraint firstAttribute="trailing" secondItem="JoW-1W-GC2" secondAttribute="trailing" constant="20" id="mQ8-gI-2S0"/>
+                    <constraint firstItem="JoW-1W-GC2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="n4H-u3-ZBP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+            <connections>
+                <outlet property="cellView" destination="JoW-1W-GC2" id="iaE-3o-UuD"/>
+                <outlet property="infoImageView" destination="OLH-1p-uVr" id="z5c-4W-EF3"/>
+                <outlet property="infoTextCell" destination="0bn-vN-xvO" id="2Ba-lB-eDc"/>
+            </connections>
+            <point key="canvasLocation" x="-147.2093023255814" y="-1.9313304721030045"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
