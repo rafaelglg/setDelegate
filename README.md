@@ -37,10 +37,10 @@ setDelegate se distribuye bajo la licencia Rafael Loggiodice
 # Ejemplos
 app completa
 
-![app completa Rafael Loggiodice](https://github.com/rafaelglg/setDelegate/assets/100690402/9d726176-8eef-4351-871b-be8c535a7813)
+![app completa Rafael Loggiodice](https://github.com/rafaelglg/setDelegate/assets/100690402/b7eb4c02-38bd-44bd-bbe2-79c2227c1a27)
 
 ## Dark mode - Light Mode
 
-![dark   light mode](https://github.com/rafaelglg/setDelegate/assets/100690402/3990d748-2a66-4e9a-8c5d-1bc6d6b4ac73)
+![dark   light mode](https://github.com/rafaelglg/setDelegate/assets/100690402/a36df48f-2bde-47a7-948f-33415dc9a7e1)
 
 
